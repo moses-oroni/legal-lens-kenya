@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal Lens Record",
+  "type": "object",
+  "required": ["record_id", "title", "as_at", "status", "claims", "privacy", "action"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^LL-[A-Z]+-[0-9]{3,}$"},
+    "title": {"type": "string"},
+    "as_at": {"type": "string", "format": "date-time"},
+    "jurisdiction": {"type": ["string", "null"]},
+    "status": {"enum": ["verified", "pending", "historical", "quarantined"]},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "kind", "grade", "sources"],
+        "properties": {
+          "claim": {"type": "string"},
+          "kind": {"enum": ["fact", "inference", "recommendation", "personal_meaning"]},
+          "grade": {"enum": ["A", "B", "C", "D", "Q"]},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["source_id", "location", "date"],
+              "properties": {
+                "source_id": {"type": "string"},
+                "location": {"type": "string"},
+                "date": {"type": "string"},
+                "authority": {"type": ["string", "null"]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "required": ["classification", "purpose", "minimised"],
+      "properties": {
+        "classification": {"enum": ["public", "personal", "confidential", "sensitive", "restricted"]},
+        "purpose": {"type": "string"},
+        "minimised": {"type": "boolean"},
+        "retention_rule": {"type": ["string", "null"]}
+      }
+    },
+    "desk_review": {
+      "type": ["object", "null"],
+      "properties": {
+        "known": {"type": "array", "items": {"type": "string"}},
+        "inferred": {"type": "array", "items": {"type": "string"}},
+        "unknown": {"type": "array", "items": {"type": "string"}},
+        "curiosity_question": {"type": ["string", "null"]},
+        "red_team": {"type": "array", "items": {"type": "string"}},
+        "lesson": {"type": ["string", "null"]}
+      }
+    },
+    "action": {
+      "type": "object",
+      "required": ["next_step", "owner", "consent_status"],
+      "properties": {
+        "next_step": {"type": "string"},
+        "owner": {"type": "string"},
+        "deadline": {"type": ["string", "null"]},
+        "closure_proof": {"type": ["string", "null"]},
+        "consent_status": {"enum": ["not_required", "required_not_requested", "approval_pending", "approved_for_exact_action", "completed"]}
+      }
+    }
+  }
+}
