@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "as_at": "2026-08-24",
+  "nodes": [
+    {"id":"principal","label":"Human principal","layer":"governance","role":"Intent, lived context, values and authority"},
+    {"id":"ai","label":"AI review partner","layer":"governance","role":"Synthesis, patterns, contradictions and options"},
+    {"id":"lens","label":"Legal Lens","layer":"reasoning","role":"Status, Authority, Duty, Proof, Risk, Action"},
+    {"id":"desk","label":"Desk Review","layer":"reasoning","role":"Curiosity, red-team review, consent and learning"},
+    {"id":"sources","label":"Evidence sources","layer":"evidence","role":"Law, records, literature and field evidence"},
+    {"id":"grading","label":"Evidence grading","layer":"control","role":"A, B, C, D and quarantined conflict"},
+    {"id":"privacy","label":"Privacy control","layer":"control","role":"Purpose, minimisation, access and retention"},
+    {"id":"consent","label":"Consent gate","layer":"control","role":"Exact approval before external side effects"},
+    {"id":"decisions","label":"Decisions and actions","layer":"output","role":"Owner, deadline and closure proof"},
+    {"id":"research","label":"Research and dissertation","layer":"output","role":"Doctrine, comparison, testing and limits"},
+    {"id":"grassroots","label":"Grassroots practice","layer":"domain","role":"Rights, programmes, referrals and accountable proof"},
+    {"id":"learning","label":"After-action learning","layer":"learning","role":"Turn outcomes and mistakes into safeguards"}
+  ],
+  "edges": [
+    {"from":"principal","to":"lens","meaning":"sets purpose and judgment"},
+    {"from":"ai","to":"lens","meaning":"structures and tests evidence"},
+    {"from":"sources","to":"grading","meaning":"provenance and authority are assessed"},
+    {"from":"grading","to":"lens","meaning":"qualified evidence enters reasoning"},
+    {"from":"privacy","to":"sources","meaning":"limits collection and use"},
+    {"from":"lens","to":"desk","meaning":"material ambiguity triggers review"},
+    {"from":"principal","to":"desk","meaning":"adds context and decides trade-offs"},
+    {"from":"ai","to":"desk","meaning":"asks, challenges and synthesises"},
+    {"from":"desk","to":"consent","meaning":"recommendation reaches action boundary"},
+    {"from":"consent","to":"decisions","meaning":"authorised action may proceed"},
+    {"from":"lens","to":"research","meaning":"framework becomes a testable proposition"},
+    {"from":"research","to":"grassroots","meaning":"careful applied learning"},
+    {"from":"grassroots","to":"sources","meaning":"practice generates controlled evidence"},
+    {"from":"decisions","to":"learning","meaning":"outcomes are reviewed"},
+    {"from":"learning","to":"desk","meaning":"lessons refine review"},
+    {"from":"learning","to":"lens","meaning":"controls and questions improve"}
+  ]
+}
