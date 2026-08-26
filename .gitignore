@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.*
+private/
+raw_inputs/
+Raw_Inputs/
+Evidence_Register.csv
+Source_Locations.md
