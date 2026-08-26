@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this research release, please cite it using the metadata below."
+title: "Legal Lens Kenya"
+type: dataset
+version: 0.1.0
+date-released: 2026-08-26
+authors:
+  - family-names: "Oroni"
+    given-names: "Moses Evans Etyang"
+repository-code: "https://github.com/moses-oroni/legal-lens-kenya"
+url: "https://github.com/moses-oroni/legal-lens-kenya"
+license: CC-BY-4.0
+keywords:
+  - Kenyan law
+  - artificial intelligence
+  - AI governance
+  - digital rights
+  - legal reasoning
+  - digital evidence
+  - data protection
+abstract: >-
+  An exploratory, human-governed framework and source-linked pilot dataset
+  for evidence-controlled reasoning in selected Kenyan technology-law cases.
