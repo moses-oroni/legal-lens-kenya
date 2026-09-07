@@ -1,3 +1,7 @@
+# AI accountability scenarios and historical pilot
+
+The current `ai_accountability_scenarios.json` contains three fictional research scenarios, not judgments. See the AI accountability methodology. The following v0.1 pilot is retained as historical background and has not been reverified for this release.
+
 # Pilot dataset
 
 `kenya_digital_law_case_pilot_v0.1.csv` contains 10 purposively selected Kenyan superior-court decisions coded for an exploratory Legal Lens study.

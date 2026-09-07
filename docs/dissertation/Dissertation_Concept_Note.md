@@ -1,62 +1,53 @@
-# Dissertation concept note — exploratory draft 0.1
+# Dissertation concept note — exploratory draft 0.2
+Date: 7 September 2026  
+Researcher: Moses Evans Etyang Oroni  
+Status: revised research proposal; not university-approved.
 
 ## Working title
-
-**Legal Reasoning in the Digital Age: Assessing the Need for a Formalized Jurisprudential Lens in Kenyan Law**
-
-## Possible applied subtitle
-
-**A human-governed, evidence-controlled approach to technology-law reasoning and access to justice**
+**Criminal Accountability for AI-Mediated Cybercrime in Kenya: Assessing the Adequacy of the Computer Misuse and Cybercrimes Act**
 
 ## Problem statement
+Generative AI and agentic programs can mediate conduct through instructions, tool permissions, external content and delegated actions. A harmful output does not alone establish which person committed an offence, possessed its required mental element or caused the result. Equally, using AI does not necessarily place conduct outside existing technology-neutral criminal provisions.
 
-Kenyan technology-law disputes increasingly require courts, lawyers, institutions, and affected people to reason across legal doctrine, technical systems, rapidly changing facts, digital evidence, and fundamental rights. Rules may exist, but the method by which decision-makers identify status, authority, duties, proof, risk, and action is not always explicit or consistent. AI can expand research and pattern detection, but it can also amplify stale sources, hidden assumptions, privacy harms, and unjustified confidence.
+The study will assess how Kenyan law addresses attribution, intent, authorisation, participation and electronic evidence in AI-mediated fraud and unauthorised access. It will distinguish gaps in legal coverage from uncertainty in interpretation, unavailable proof and enforcement limitations. It will not presume a need for an offence of “prompt engineering.”
 
-The research would assess—not assume—whether a formalised jurisprudential and evidence-control lens is needed, feasible, and useful in Kenyan law.
+## Main research question
+To what extent does Kenya's Computer Misuse and Cybercrimes Act adequately support criminal accountability for fraud and unauthorised access mediated by generative AI and AI agents?
 
-## Main objective
+## Objectives
+1. Identify and verify relevant offence elements, participation provisions and applicable general criminal-law principles.
+2. Examine attribution and the required mental element where a human directs an AI system, an agent exceeds an instruction, or a third party manipulates the system.
+3. Assess evidential problems involving prompts, account access, model versions, permissions, tool calls, approvals and custody of electronic records.
+4. Distinguish substantive, interpretive, evidential and enforcement gaps using a consistent scenario matrix.
+5. Develop proportionate recommendations only where supported, including interpretation, evidence practice, system controls or narrowly framed legislative change.
 
-To assess the need for and feasibility of a formalised, human-governed Legal Lens for reasoning in selected Kenyan technology-law contexts.
+## Scope
+Kenya is the controlling jurisdiction. Fraud and unauthorised access are the initial offence families. Forgery, participation, corporate responsibility, electronic evidence, constitutional rights and data protection are included where necessary to the defined question. Civil and regulatory responsibility are distinguished from criminal liability. AI personhood, every cyber offence and broad global AI regulation are outside the core inquiry.
 
-## Specific objectives
+## Method
+Doctrinal analysis of current primary legislation and reported judgments; targeted literature review; transparent coding of relevant Kenyan cases; and application to three clearly fictional scenario families. Sources will be logged with exact provisions or paragraphs, effective dates, later history and verification status.
 
-1. Identify recurring reasoning structures and gaps in selected Kenyan decisions involving digital evidence, data protection, cybercrime, communications systems, or AI-adjacent issues.
-2. Examine the jurisprudential, evidential, and rights-based principles relevant to a structured reasoning method.
-3. Compare selected structured-reasoning or responsible-AI approaches from other jurisdictions, subject to explicit transfer limits.
-4. Develop a provisional Lens and test whether it improves transparency, source discipline, risk identification, and actionability.
-5. Explore cautiously whether an adapted form could improve access to understandable legal and governance decisions at grassroots level.
+A counterexample is required for each asserted gap: can existing law already resolve it if adequate evidence is available? Compare alternative interpretations and report negative or inconclusive results. A foreign comparison is optional and must have a specified reason and transfer limitation.
 
-## Research questions
+The historical ten-case pilot supplies background only. It is not evidence that Kenyan courts have decided AI-agent responsibility.
 
-1. What recurring reasoning patterns and weaknesses appear in selected Kenyan technology-law decisions?
-2. What doctrinal and jurisprudential requirements should a Kenyan Legal Lens satisfy?
-3. What can—and cannot—be responsibly borrowed from comparative approaches?
-4. Does the proposed six-question framework make reasoning more transparent and evidence-controlled?
-5. What governance, consent, privacy, and accountability controls are required when AI assists the process?
-6. Could an applied version make duties, proof, risks, and next actions more usable for grassroots organisations or affected communities without substituting for professional advice?
+## Analytical questions
+- What act and mental element must be established for each candidate offence?
+- Who issued the original instruction, changed permissions or approved an action?
+- Was the conduct within authority, beyond authority or induced by a third party?
+- What evidence links the actor to the act and relevant state of mind?
+- Is apparent autonomy an explanation of system behaviour or a legally relevant break in attribution?
+- Can evidence be authenticated and obtained across service providers and jurisdictions?
+- Would reform be precise, necessary and proportionate while protecting lawful research and expression?
 
-## Provisional method
+## Product relationship
+Legal Lens: AI Accountability is an applied research prototype for organising incident facts and review questions. It cannot establish guilt or replace an advocate. Its usefulness and accuracy require separate evaluation. Commercial success cannot determine the dissertation findings.
 
-- **Doctrinal analysis:** statutes, regulations, judgments, and official guidance.
-- **Structured case coding:** issue → authority → evidence → reasoning → holding → remedy or implementation.
-- **Comparative review:** selected primary and scholarly sources with explicit transfer limits.
-- **Design-oriented analysis:** derive and refine the provisional framework from observed reasoning needs.
-- **Illustrative applied cases:** de-identified or public material only, subject to ethics and data-protection requirements.
-- **Evaluation criteria:** source accuracy, transparency, reproducibility, rights sensitivity, usability, and error containment.
+## Evaluation
+Evaluate source and pinpoint accuracy, legal-status handling, separation of allegations from findings, coverage of required elements, treatment of exculpatory evidence and reviewer usefulness. Do not publish confidence or guilt percentages without a defensible validated method.
 
-## The technology angle
+## Boundaries
+Use public judgments and fictional incidents initially. No private organisational or participant material is included. Any later human-participant research requires applicable institutional approvals. Disclose AI-assisted drafting and independently review the resulting claims. Novelty and supervisor approval remain unestablished.
 
-The technology component is not merely “using AI.” It is the design and governance of a socio-technical reasoning system: data provenance, knowledge representation, human oversight, explainability, privacy, access control, audit trails, contradiction handling, and consent before action. This keeps the project legally grounded while making it genuinely interdisciplinary.
-
-## Grassroots relevance
-
-An applied strand could examine whether a simplified Lens helps a community organisation turn complex obligations into safer records and accountable steps—for example service mapping, referrals, consent, programme finance, and evidence of outcomes. This must not turn vulnerable people into unconsenting research subjects or overclaim local outcomes.
-
-## Boundaries and next academic checks
-
-- Confirm the university's dissertation format, word limit, departmental expectations, and research-ethics requirements.
-- Narrow the case set and technology-law domain enough for an LLB dissertation.
-- Verify any novelty claim through a systematic literature review.
-- Define and source the comparative jurisdiction before designing a comparative chapter.
-- Decide whether the grassroots application is a principal research question, a limited illustration, or future research.
-- Seek supervisor feedback before presenting the title, method, or dataset as approved.
+## Immediate research gates
+Verify the current consolidated Act and later orders; agree scope with the supervisor; complete a targeted literature review; then code authorities and assess the scenarios. The source register records discovery leads, not completed doctrinal findings.

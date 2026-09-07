@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this research release, please cite it using the metadata below."
-title: "Legal Lens Kenya"
+title: "Legal Lens Kenya: AI Accountability"
 type: dataset
-version: 0.1.0
-date-released: 2026-08-26
+version: 0.2.0
+date-released: 2026-09-07
 authors:
   - family-names: "Oroni"
     given-names: "Moses Evans Etyang"
@@ -19,5 +19,5 @@ keywords:
   - digital evidence
   - data protection
 abstract: >-
-  An exploratory, human-governed framework and source-linked pilot dataset
-  for evidence-controlled reasoning in selected Kenyan technology-law cases.
+  An exploratory research framework for assessing criminal accountability
+  for AI-mediated fraud and unauthorised access in Kenya.

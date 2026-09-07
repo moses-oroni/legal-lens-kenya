@@ -1,0 +1,55 @@
+{
+  "version": "0.2.0",
+  "fictional": true,
+  "judgments": false,
+  "scenarios": [
+    {
+      "id": "AI-001",
+      "title": "Deliberately directed AI-assisted fraud",
+      "facts": "A fictional operator instructs an agent to impersonate a supplier and request a payment to an unauthorised account.",
+      "questions": [
+        "Who wrote and executed the instruction?",
+        "Was the account compromised?",
+        "Which verified offence elements apply?"
+      ],
+      "evidence": [
+        "Original instructions",
+        "Execution and approval records",
+        "Payment and recipient records"
+      ],
+      "counterexample": "The message was an authorised internal simulation and no external recipient was contacted."
+    },
+    {
+      "id": "AI-002",
+      "title": "Agent exceeds lawful instructions",
+      "facts": "A fictional assistant authorised to summarise client records sends them to an external address outside its permission scope.",
+      "questions": [
+        "What instruction and permission existed?",
+        "Who caused or approved the external action?",
+        "Does the evidence meet a specific criminal mental element?"
+      ],
+      "evidence": [
+        "Permissions at incident time",
+        "Tool-call trail",
+        "Model and workflow versions"
+      ],
+      "counterexample": "The operator did not instruct or authorise the disclosure; the cause remains unresolved."
+    },
+    {
+      "id": "AI-003",
+      "title": "Third-party prompt injection",
+      "facts": "A fictional attacker places instructions in a document later read by an agent; an unauthorised tool action follows.",
+      "questions": [
+        "Who supplied the document?",
+        "Did the injected text cause the action?",
+        "What alternative explanation fits the logs?"
+      ],
+      "evidence": [
+        "Original document and provenance",
+        "Input/tool timeline",
+        "Access and authorisation records"
+      ],
+      "counterexample": "The suspicious document was never read before the action."
+    }
+  ]
+}

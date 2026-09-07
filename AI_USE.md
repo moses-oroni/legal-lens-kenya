@@ -29,3 +29,6 @@ AI output was **not** treated as legal authority. Case citations, dates, courts,
 ## Known limitations
 
 Large-language models can fabricate citations, compress important distinctions, miss later appeals, and reproduce bias. A fluent summary is not proof of accuracy. The project therefore treats AI as a fallible research aid operating inside a source-verification and human-accountability process.
+
+## Assistance in v0.2
+AI assisted the owner-authorised direction change, document drafting, scenario design and application edits on 7 September 2026. The v0.2 source register contains discovery leads, not a completed legal verification. No human expert review or academic approval is represented. Fictional scenarios are not judicial decisions.
