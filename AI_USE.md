@@ -32,3 +32,9 @@ Large-language models can fabricate citations, compress important distinctions, 
 
 ## Assistance in v0.2
 AI assisted the owner-authorised direction change, document drafting, scenario design and application edits on 7 September 2026. The v0.2 source register contains discovery leads, not a completed legal verification. No human expert review or academic approval is represented. Fictional scenarios are not judicial decisions.
+
+
+## Citation verification update — 9 September 2026
+Every legal claim must pass authority existence, passage support and jurisdictional/factual applicability checks. Current legal status, adverse authority, provenance and named review are also required. A supplied URL is a lead, not verification. Failed, missing, stale or conflicting checks block verified labels and final legal approval. Corrections invalidate dependent checks and approvals. Administrative permission is not legal validation.
+
+The controlling standard is [Citation Verification Standard](https://github.com/moses-oroni/legal-lens-kenya/blob/main/docs/methodology/Citation_Verification_Standard.md). The Alpha remains a guided checklist without live source verification; implementation status is recorded separately.
