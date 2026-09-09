@@ -39,3 +39,9 @@ Legal status requires the Act as amended, commencement information and later cou
 This repository publishes the research layer. A separate product may provide incident assessment and evidence organisation, subject to validation. Private incident records, credentials and production configurations do not belong here. Existing [licences](LICENSE.md) and the [commercial boundary](COMMERCIAL_BOUNDARY.md) remain in place.
 
 [AI assistance disclosure](AI_USE.md) · [Changelog](CHANGELOG.md)
+
+
+## Citation verification update — 9 September 2026
+Every legal claim must pass authority existence, passage support and jurisdictional/factual applicability checks. Current legal status, adverse authority, provenance and named review are also required. A supplied URL is a lead, not verification. Failed, missing, stale or conflicting checks block verified labels and final legal approval. Corrections invalidate dependent checks and approvals. Administrative permission is not legal validation.
+
+The controlling standard is [Citation Verification Standard](https://github.com/moses-oroni/legal-lens-kenya/blob/main/docs/methodology/Citation_Verification_Standard.md). The Alpha remains a guided checklist without live source verification; implementation status is recorded separately.
