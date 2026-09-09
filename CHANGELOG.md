@@ -20,3 +20,9 @@ Initial public research release.
 - Added a JSON schema, pseudocode, and systems-map assets.
 
 No participant, client, programme, KYC, health, financial, security, correspondence, or other private operational records are included.
+
+
+## Citation verification update — 9 September 2026
+Every legal claim must pass authority existence, passage support and jurisdictional/factual applicability checks. Current legal status, adverse authority, provenance and named review are also required. A supplied URL is a lead, not verification. Failed, missing, stale or conflicting checks block verified labels and final legal approval. Corrections invalidate dependent checks and approvals. Administrative permission is not legal validation.
+
+The controlling standard is [Citation Verification Standard](https://github.com/moses-oroni/legal-lens-kenya/blob/main/docs/methodology/Citation_Verification_Standard.md). The Alpha remains a guided checklist without live source verification; implementation status is recorded separately.
